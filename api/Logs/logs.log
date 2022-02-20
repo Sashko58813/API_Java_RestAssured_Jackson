@@ -1,0 +1,37 @@
+2022-02-20 11:46:004 INFO - Current environment: https://www.boredapi.com/api
+2022-02-20 11:46:004 INFO - Good
+2022-02-20 12:21:005 INFO - Current environment: https://www.boredapi.com/api
+2022-02-20 12:21:005 INFO - Get random activity
+2022-02-20 12:21:005 INFO - Endpoint: https://www.boredapi.com/api/activity
+2022-02-20 12:21:006 INFO - Random activity retrived successfully
+2022-02-20 12:21:006 INFO - Response body: 
+{"activity":"Match your storage containers with their lids","type":"busywork","participants":1,"price":0,"link":"","key":"4940907","accessibility":1}
+2022-02-20 12:21:006 INFO - Random activity is Match your storage containers with their lids
+2022-02-20 12:21:034 INFO - Current environment: https://www.boredapi.com/api
+2022-02-20 12:21:034 INFO - Get random activity
+2022-02-20 12:21:034 INFO - Endpoint: https://www.boredapi.com/api/activity
+2022-02-20 12:21:035 INFO - Random activity retrived successfully
+2022-02-20 12:21:035 INFO - Response body: 
+{"activity":"Go to the library and find an interesting book","type":"relaxation","participants":1,"price":0.05,"link":"","key":"8253550","accessibility":0.2}
+2022-02-20 12:21:035 INFO - Random activity is Go to the library and find an interesting book
+2022-02-20 12:23:030 INFO - Current environment: https://www.boredapi.com/api
+2022-02-20 12:23:030 INFO - Get random activity
+2022-02-20 12:23:030 INFO - Endpoint: https://www.boredapi.com/api/activity
+2022-02-20 12:23:030 INFO - Random activity retrieved successfully
+2022-02-20 12:23:030 INFO - Response body: 
+{"activity":"Explore the nightlife of your city","type":"social","participants":1,"price":0.1,"link":"","key":"2237769","accessibility":0.32}
+2022-02-20 12:23:031 INFO - Random activity is Explore the nightlife of your city
+2022-02-20 12:23:038 INFO - Current environment: https://www.boredapi.com/api
+2022-02-20 12:23:038 INFO - Get random activity
+2022-02-20 12:23:038 INFO - Endpoint: https://www.boredapi.com/api/activity
+2022-02-20 12:23:038 INFO - Random activity retrieved successfully
+2022-02-20 12:23:038 INFO - Response body: 
+{"activity":"Learn how to use an Arduino","type":"education","participants":1,"price":0.1,"link":"https://en.wikipedia.org/wiki/Arduino","key":"8264223","accessibility":0.7}
+2022-02-20 12:23:039 INFO - Random activity is Learn how to use an Arduino
+2022-02-20 12:25:014 INFO - Current environment: https://www.boredapi.com/api
+2022-02-20 12:25:014 INFO - Get random activity
+2022-02-20 12:25:014 INFO - Endpoint: https://www.boredapi.com/api/activity
+2022-02-20 12:25:015 INFO - Random activity retrieved successfully
+2022-02-20 12:25:015 INFO - Response body: 
+{"activity":"Hold a video game tournament with some friends","type":"social","participants":4,"price":0,"link":"","key":"2300257","accessibility":0.1}
+2022-02-20 12:25:015 INFO - Random activity is Hold a video game tournament with some friends
