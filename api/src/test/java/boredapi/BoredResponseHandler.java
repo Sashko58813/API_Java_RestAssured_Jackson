@@ -34,12 +34,27 @@ public class BoredResponseHandler extends BaseClass implements BoredAPIHandler {
     }
 
     @Override
-    public Response getActivityByType(String type) {
-        return null;
-    }
+    public Response getActivityByTypeAndParticipants(String type, int participants) {
+        Log.info("Get activity by type aand by quantity of participants");
+        Log.info("Endpoint: " + RestAssured.baseURI + BoredAPIHandler.activityResource);
+        Response getRandomActivityResponse =
+                given()
+                        .queryParam("type", type)
+                        .queryParam("participants", participants)
+                        .get(BoredAPIHandler.activityResource)
+                        .then()
+                        .extract().response();
+        try {
+            Assert.assertEquals(getRandomActivityResponse.statusCode(), 200);
+            Log.info("Activity for " + participants + " participant(s) and type " + type + " retrieved successfully");
+            Log.info("Response body: \n" + getRandomActivityResponse.getBody().asString());
+            return getRandomActivityResponse;
 
-    @Override
-    public Response getActivityByParticipants(Integer participants) {
-        return null;
+        } catch (AssertionError e) {
+            Log.info("Get activity by type aand by quantity of participants failed with status code of: " + getRandomActivityResponse.statusCode());
+            Log.info("Response body: \n" + getRandomActivityResponse.getBody().asString());
+            Assert.assertEquals(getRandomActivityResponse.statusCode(), 200);
+            return getRandomActivityResponse;
+        }
     }
 }
