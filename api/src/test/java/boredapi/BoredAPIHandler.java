@@ -6,6 +6,5 @@ public interface BoredAPIHandler {
     String activityResource = "/activity";
 
     Response getRandomActivity();
-    Response getActivityByType(String type);
-    Response getActivityByParticipants(Integer participants);
+    Response getActivityByTypeAndParticipants(String type, int participants);
 }
